@@ -1,0 +1,59 @@
+.mod-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 10px;
+}
+.mod-info-card,
+.mod-card,
+.mod-token-card {
+  flex: 1;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+
+.mod-token-card,
+.mod-info-card {
+  flex: 2;
+}
+.mod-info-card h3,
+.mod-card h3,
+.mod-token-card h3 {
+  color: #373F50;
+}
+#mod_token_number {
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+}
+.mod-button {
+  background-color: #0073e5;
+  color: #fff;
+  padding: 10px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+}
+@media (max-width: 768px) {
+  .mod-container {
+    flex-direction: column;
+  }
+  .mod-info-card,
+  .mod-card,
+  .mod-token-card {
+    flex: 1;
+    max-width: 100%;
+  }
+}
+.mod-token-field {
+  display: none;
+  padding: 0;
+  margin: 0;
+}

@@ -1,0 +1,13 @@
+{
+    "name": "coffee-code/mod-auto-updates",
+    "description": "Ferramenta necessária para atualizações automáticas dos plugins do Mercado Online Digital.",
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "MOD\\": "src/"
+        }
+    },
+    "require": {
+        "yahnis-elsts/plugin-update-checker": "^4.10"
+    }
+}

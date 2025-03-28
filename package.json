@@ -1,0 +1,24 @@
+{
+    "name": "mod-auto-updates",
+    "version": "1.0.0",
+    "description": "Ferramenta necessária para atualizações automáticas dos plugins do Mercado Online Digital.",
+    "main": "mod-auto-updates.php",
+    "dependencies": {},
+    "devDependencies": {
+        "grunt": "^1.0.4",
+        "grunt-concurrent": "^3.0.0",
+        "grunt-contrib-concat": "^1.0.1",
+        "grunt-contrib-sass": "^1.0.0",
+        "grunt-contrib-uglify": "^4.0.1",
+        "grunt-contrib-watch": "^1.1.0",
+        "grunt-wp-i18n": "^1.0.3",
+        "load-grunt-config": "^2.0.0",
+        "load-grunt-tasks": "^5.0.0",
+        "time-grunt": "^2.0.0"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Coffee Code",
+    "license": "ISC"
+}
